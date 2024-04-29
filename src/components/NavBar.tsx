@@ -1,7 +1,8 @@
 import logo from "../../public/logo-grabfood-white2.svg";
 import greenLogo from "../../public/logo-grabfood2.svg";
 import { useEffect, useState } from "react";
-import {Image, Link} from 'next'
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { CiShoppingBasket } from "react-icons/ci";
 import { Avatar, Badge } from "@mui/material";
